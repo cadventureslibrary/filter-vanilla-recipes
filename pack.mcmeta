@@ -1,0 +1,26 @@
+{
+  "pack": {
+    "min_format": [107, 1],
+    "max_format": [107, 255],
+    "description": [
+      "Disables Vanilla recipes when enabled"
+    ],
+    "meta": {
+      "authors": ["britishconnah"],
+      "modified": "2026-08-29",
+      "version": "26.2"
+    }
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "advancement/recipes/.*"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/.*"
+      }
+    ]
+  }
+}
